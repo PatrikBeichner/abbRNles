@@ -1,14 +1,22 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, ImageBackground } from 'react-native';
+import styles from './styles';
 
 const HomeScreen = props => {
     return (
         <View>
-            <Text>not just a component</Text>
-            
+            {/* Search bar */}
+            <ImageBackground 
+              source={require('../../../assets/images/wallpaper.jpg')} 
+              style={styles.image}
+            >
+                
+                {/* Title */}
+                {/* Button */}
+            </ImageBackground>
         </View>
     )
 }
 
 
-export default index
+export default HomeScreen

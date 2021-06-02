@@ -33,8 +33,8 @@ const styles = StyleSheet.create({
     searchButton: {
         backgroundColor: '#fff',
         width: Dimensions.get('screen').width - 20,
-        height: 40,
-        borderRadius: 10,
+        height: 60,
+        borderRadius: 30,
         marginHorizontal: 10,
         flexDirection: 'row',
         justifyContent: 'center',

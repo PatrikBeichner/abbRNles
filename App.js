@@ -6,8 +6,8 @@ import HomeScreen from './src/screens/Home';
 
 export default function App() {
   return (
-    <SafeAreaView>
+    <View>
       <HomeScreen />
-    </SafeAreaView>
+    </View>
   );
 }

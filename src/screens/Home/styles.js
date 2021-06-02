@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Dimensions } from 'react-native';
 
 const styles = StyleSheet.create({
     image: {
@@ -7,6 +7,7 @@ const styles = StyleSheet.create({
         resizeMode: 'cover',
         // align items centered vertically V
         justifyContent: 'center',
+        zIndex: 1,
     },
     title: {
         fontSize: 80,
@@ -26,6 +27,23 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     buttonText: {
+        fontSize: 16,
+        fontWeight: 'bold',
+    },
+    searchButton: {
+        backgroundColor: '#fff',
+        width: Dimensions.get('screen').width - 20,
+        height: 40,
+        borderRadius: 10,
+        marginHorizontal: 10,
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        position: 'absolute',
+        top: 50,
+        elevation: 100,
+    },
+    searchButtonText: {
         fontSize: 16,
         fontWeight: 'bold',
     },

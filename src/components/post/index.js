@@ -14,12 +14,12 @@ const Post = (props) => {
             <Text style={styles.bedrooms}>1 bed 1 bedroom</Text>
 
             {/* type & description */}
-            <Text style={styles.description}>Huh Huh Huh its a place to lay down in the dirt</Text>
+            <Text style={styles.description} numberOfLines={2}>Löksås ipsum hans rännil sitt varit samtidigt groda ingalunda hwila, brunsås vidsträckt det ta göras jäst när räv bra mot, smultron strand helt genom kom annat helt annat.</Text>
             {/* old price & new price */}
             <Text style={styles.prices}>
-                <Text style={styles.oldPrice}>$36</Text>
-                <Text style={styles.newPrice}>$30</Text>
-                / text
+                <Text style={styles.oldPrice}>$36 </Text>
+                <Text style={styles.price}> $30 </Text>
+                / night
             </Text>
             {/* total price */}
             <Text style={styles.totalPrice}>$230 total</Text>

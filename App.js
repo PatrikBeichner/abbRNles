@@ -11,6 +11,8 @@ export default function App() {
     <SafeAreaView>
       {/* <HomeScreen /> */}
       <Post />
+      <Post />
+      <Post />
     </SafeAreaView>
   );
 }

@@ -1,10 +1,19 @@
-import React from 'react'
-import { View, Text } from 'react-native'
+import React from 'react';
+import { View, FlatList } from 'react-native';
+import Post from '../../components/post';
 
-export default function index() {
+import feed from '../../../assets/data/feed';
+
+
+const SearchResultsScreen = (props) => {
     return (
         <View>
-            <Text></Text>
+            <FlatList 
+              data={feed}
+              renderItem={({item}) => <Post post={item} />}
+            />
         </View>
     )
 }
+
+export default SearchResultsScreen;

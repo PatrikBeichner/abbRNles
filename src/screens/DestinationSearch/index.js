@@ -5,7 +5,7 @@ import styles from './styles';
 const DestinationSearchScreen =(props) => {
     return (
         <View>
-            <Text></Text>
+            <Text>searchy</Text>
         </View>
     )
 }

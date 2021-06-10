@@ -5,6 +5,7 @@ import { Entypo } from '@expo/vector-icons';
 import HomeScreen from './src/screens/Home';
 import Post from './src/components/post';
 import SearchResultsScreen from './src/screens/searchResults';
+import DestinationSearchScreen from './src/screens/DestinationSearch';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import feed from './assets/data/feed';
 
@@ -20,7 +21,8 @@ export default function App() {
         {/* <Post post={post1} />
         <Post post={post2} />
         <Post post={post3} /> */}
-        <SearchResultsScreen />
+        {/* <SearchResultsScreen /> */}
+        <DestinationSearchScreen />
       </ScrollView>
     </SafeAreaView>
   );
